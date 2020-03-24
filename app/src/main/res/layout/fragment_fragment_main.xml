@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_frame"
+    tools:context="chuan.aov.FragmentMain">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/main1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/guidetigreal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:background="#AA000000"
+                    android:padding="12dip"
+                    android:gravity="center"
+                    android:text="“INITIATING GOD” TIGREAL GUIDE [BY TRIPLE C]"
+                    android:textStyle="italic|bold"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+
+            <FrameLayout
+            android:id="@+id/main2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@drawable/akai" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="#AA000000"
+                android:padding="12dip"
+                android:gravity="center"
+                android:text="AKAI SKILLS UPDATED !"
+                android:textStyle="italic|bold"
+                android:textColor="#ffffffff" />
+        </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/main3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tigreal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:background="#AA000000"
+                    android:padding="12dip"
+                    android:gravity="center"
+                    android:text="TIGREAL REMODEL !"
+                    android:textStyle="italic|bold"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

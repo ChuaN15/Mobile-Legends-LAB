@@ -1,0 +1,470 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    tools:context="chuan.aov.FragmentGuideContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivstat"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:textColor="#00BFFF"
+                android:id="@+id/tvname"
+                android:textSize="25dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/tvintro"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:text="Skills" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+                <ImageView
+                    android:id="@+id/ivskill1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5.5dp"
+                    android:layout_width="70dp" />
+                <TextView
+                    android:id="@+id/tvskill11"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_toRightOf="@id/ivskill1"
+                    android:textColor="#FF0000"
+                    android:gravity="top"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill111"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_below="@+id/tvskill11"
+                    android:layout_toRightOf="@id/ivskill1"
+                    android:textColor="#003CFF"
+                    android:gravity="top"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_below="@+id/tvskill111"
+                    android:layout_toRightOf="@id/ivskill1"
+                    android:textColor="@color/black"
+                    android:gravity="top"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:id="@+id/ivskill2"
+                    android:paddingLeft="10dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5.5dp"
+                    android:layout_width="70dp" />
+                <TextView
+                    android:id="@+id/tvskill22"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_toRightOf="@id/ivskill2"
+                    android:textColor="#FF0000"
+                    android:gravity="top"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill222"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_below="@+id/tvskill22"
+                    android:layout_toRightOf="@id/ivskill2"
+                    android:textColor="#003CFF"
+                    android:gravity="top"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill2"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_below="@+id/tvskill222"
+                    android:layout_toRightOf="@id/ivskill2"
+                    android:textColor="@color/black"
+                    android:gravity="top"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:id="@+id/ivskill3"
+                    android:paddingLeft="10dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5.5dp"
+                    android:layout_width="70dp" />
+                <TextView
+                    android:id="@+id/tvskill33"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_toRightOf="@id/ivskill3"
+                    android:textColor="#FF0000"
+                    android:gravity="top"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill333"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_below="@+id/tvskill33"
+                    android:layout_toRightOf="@id/ivskill3"
+                    android:textColor="#003CFF"
+                    android:gravity="top"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill3"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_below="@+id/tvskill333"
+                    android:layout_toRightOf="@id/ivskill3"
+                    android:textColor="@color/black"
+                    android:gravity="top"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:id="@+id/ivskill4"
+                    android:paddingLeft="10dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5.5dp"
+                    android:layout_width="70dp" />
+                <TextView
+                    android:id="@+id/tvskill44"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_toRightOf="@id/ivskill4"
+                    android:textColor="#FF0000"
+                    android:gravity="top"
+                    android:textSize="20dp"
+                    android:textStyle="italic|bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill444"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_below="@+id/tvskill44"
+                    android:layout_toRightOf="@id/ivskill4"
+                    android:textColor="#003CFF"
+                    android:gravity="top"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/tvskill4"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_below="@+id/tvskill444"
+                    android:layout_toRightOf="@id/ivskill4"
+                    android:textColor="@color/black"
+                    android:gravity="top"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:text="Item Build" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <TextView
+                android:id="@+id/tvitembuild"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivitembuild"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="25dp"
+                android:text="Battle Spells" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <TextView
+                android:id="@+id/tvspell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivspell"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="25dp"
+                android:text="Emblem Sets" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <TextView
+                android:id="@+id/tvemblem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivemblem"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="25dp"
+                android:text="In Game Tips" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <TextView
+                android:id="@+id/tvtips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="25dp"
+                android:text="Summary" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="#41ebe5"/>
+
+            <TextView
+                android:id="@+id/tvsummary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

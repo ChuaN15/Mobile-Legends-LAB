@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Mobile Legends LAB</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Username</string>
+    <string name="prompt_rank">Rank</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="tigrealintro">In every battle, the mystic warrior Tigreal always fought in the front line and never suffered defeat. Even the vilest of enemies did not dare to challenge Tigreal on the battlefield, because they knew such a foolish action would only be met with Tigreal\'s merciless blade. The name of Tigreal, a believer in the Lord of Light, has become synonymous with bravery and fearlessness. His kingdom has conferred upon him the honorable title of Warrior of Light as a reward.</string>
+    <string name="tigrealskill1">Each attack increases his physical and magic defense 3 pts, stacking up to 10 times.</string>
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>Mythic</item>
+        <item>Legend</item>
+        <item>Epic</item>
+        <item>Grandmaster</item>
+        <item>Master</item>
+        <item>Elite</item>
+        <item>Warrior</item>
+    </string-array>
+
+    <string-array name="country_arrayss">
+        <item>Tank</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Support</item>
+        <item>Assasin</item>
+        <item>Mage</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="item_arrays">
+        <item>Physical</item>
+        <item>Magical</item>
+        <item>Defensive</item>
+        <item>Movement</item>
+        <item>Jungle</item>
+    </string-array>
+
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_menu">Mobile Legends LAB</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

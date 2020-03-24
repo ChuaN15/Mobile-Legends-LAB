@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chuan.aov">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Login"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="Mobile Legends LAB"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="My Profile"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileUpdateActivity"
+            android:label="Account Update"
+            android:parentActivityName=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".HeroesActivity"
+            android:label="MLLAB Heroes"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".GuidesActivity"
+            android:label="MLLAB Guides"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ItemsActivity"
+            android:label="MLLAB Items"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".GuideContentActivity"
+            android:label="MLLAB Guides"
+            android:parentActivityName=".GuidesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.GuidesActivity" />
+        </activity>
+        <activity
+            android:name=".HeroContentActivity"
+            android:parentActivityName=".HeroTankActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroTankActivity" />
+        </activity>
+        <activity
+            android:name=".HeroTankActivity"
+            android:parentActivityName=".HeroesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroesActivity" />
+        </activity>
+        <activity
+            android:name=".HeroFighterActivity"
+            android:parentActivityName=".HeroesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroesActivity" />
+        </activity>
+        <activity
+            android:name=".HeroAssasinActivity"
+            android:parentActivityName=".HeroesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroesActivity" />
+        </activity>
+        <activity
+            android:name=".HeroMageActivity"
+            android:parentActivityName=".HeroesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroesActivity" />
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="MLLAB Report"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ViewProfileActivity"
+            android:label=""
+            android:parentActivityName=".HeroContentActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.HeroContentActivity" />
+        </activity>
+        <activity
+            android:name=".ViewCommentsActivity"
+            android:label=""
+            android:parentActivityName=".ViewProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ViewProfileActivity" />
+        </activity>
+        <activity
+            android:name=".ViewProfileCommentsActivity"
+            android:label=""
+            android:parentActivityName=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".PopularActivity"
+            android:label="MLLAB Popular Players"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ViewProfileActivity2"
+            android:label="MLLAB Popular Players"
+            android:parentActivityName=".PopularActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.PopularActivity" />
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="Forgot Password"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayQrCodeActivity"
+            android:parentActivityName=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".ScanQrCodeActivity"
+            android:label="QR Code Scanner"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".QrCodeProfileActivity"
+            android:parentActivityName=".ScanQrCodeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ScanQrCodeActivity" />
+        </activity>
+        <activity
+            android:name=".ViewComments2Activity"
+            android:parentActivityName=".ViewProfileActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.ViewProfileActivity2" />
+        </activity>
+        <activity
+            android:name=".ViewComments3Activity"
+            android:parentActivityName=".QrCodeProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuan.aov.QrCodeProfileActivity" />
+        </activity>
+        <activity android:name=".PurchaseActivity"
+            android:label="Merchandise"
+            android:parentActivityName=".MenuActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="chuan.aov.MenuActivity" />
+        </activity>
+    </application>
+
+</manifest>

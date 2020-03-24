@@ -1,0 +1,240 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    tools:context="chuan.aov.HeroAssasinActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flsaber"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/saber" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Saber"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flkarina"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/karina" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Karina"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lltank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flfanny"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fanny" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Fanny"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flhayabusa"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hayabusa" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Hayabusa"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flnatalia"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/natalia" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Natalia"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fllancelot"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lancelot" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Lancelot"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

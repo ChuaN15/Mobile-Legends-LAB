@@ -1,0 +1,608 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="chuan.aov.ItemsActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <Spinner
+                android:id="@+id/spinneritem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:visibility="visible" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/llmagical"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bloodwings" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Blood Wings"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/calamityscythe" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Calamity Scythe"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/concentratedenergy" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Concentrated Energy"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/enchantedtalisman" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Enchanted Talisman"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/eternalscepter" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Eternal Scepter"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/fleetingtime" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Fleeting Time"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/frost" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Frost"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/guardianrelic" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Guardian Relic"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llphysical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lltank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/flakai"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/maleficroar" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Malefic Roar"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai2"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/hunterstrike" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Hunter Strike"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai3"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/endlessbattle" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Endless Battle"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai4"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/windtalker" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Windtalker"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/flakai55"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/deadlyblade" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Deadly Blade"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai67"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/fallensword" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Fallen Sword"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai6"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/magicblade" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Magic Blade"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/flakai5"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal"
+                        android:scaleType="fitXY">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/windchaser" />
+
+                        <TextView
+                            android:layout_width="183dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center|bottom"
+                            android:background="#AA000000"
+                            android:padding="5dip"
+                            android:scaleType="fitXY"
+                            android:text="Wind Chase"
+                            android:gravity="center"
+                            android:textColor="#ffffffff" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

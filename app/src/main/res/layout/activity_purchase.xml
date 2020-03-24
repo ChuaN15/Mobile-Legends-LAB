@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chuan.aov.PurchaseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lltank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/flts1"
+            android:adjustViewBounds="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:id="@+id/ivts1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tscyclops" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="#AA000000"
+                android:padding="5dip"
+                android:scaleType="fitXY"
+                android:text="TS Cyclops (RM50)"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flts2"
+            android:adjustViewBounds="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:id="@+id/ivts2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tsgatotkaca" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="#AA000000"
+                android:padding="5dip"
+                android:scaleType="fitXY"
+                android:gravity="center"
+                android:text="TS Gatotkaca (RM50)"
+                android:textColor="#ffffffff" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lltank2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/flts3"
+            android:adjustViewBounds="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:id="@+id/ivts3"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tsgusion" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="#AA000000"
+                android:padding="5dip"
+                android:scaleType="fitXY"
+                android:text="TS Gusion (RM60)"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flts4"
+            android:adjustViewBounds="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:id="@+id/ivts4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tsmiya" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="#AA000000"
+                android:padding="5dip"
+                android:scaleType="fitXY"
+                android:gravity="center"
+                android:text="TS Miya (RM60)"
+                android:textColor="#ffffffff" />
+        </FrameLayout>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Total : RM0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/purchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mailing Address"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_purchase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#12CEED"
+            android:textColor="@color/white"
+            android:text="Purchase"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#12CEED"
+            android:textColor="@color/white"
+            android:text="Cancel"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

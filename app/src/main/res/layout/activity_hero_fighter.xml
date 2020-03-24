@@ -1,0 +1,521 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    tools:context="chuan.aov.HeroFighterActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flbalmond"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/balmond" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Balmond"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flalucard"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/alucard" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Alucard"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lltank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flbane"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bane" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Bane"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flzilong"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/zilong" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Zilong"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flfreya"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/freya" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Freya"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flchou"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/chou" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:gravity="center"
+                        android:text="Chou"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lltank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flsun"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sun" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Sun"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flalpha"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/alpha" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Alpha"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flruby"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ruby" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Ruby"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flhilda"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hilda" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Hilda"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fllapulapu"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lapulapu" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Lapu-Lapu"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flroger"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/roger" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Roger"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/flargus"
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/argus" />
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:background="#AA000000"
+                        android:padding="5dip"
+                        android:scaleType="fitXY"
+                        android:text="Argus"
+                        android:gravity="center"
+                        android:textColor="#ffffffff" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:adjustViewBounds="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:scaleType="fitXY">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/white" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

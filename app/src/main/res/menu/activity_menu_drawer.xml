@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/guid"
+            android:title="Guides" />
+        <item
+            android:id="@+id/nav_hero"
+            android:icon="@drawable/hero"
+            android:title="Heroes" />
+        <item
+            android:id="@+id/nav_magage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Items" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report"
+            android:title="Admin's Report" />
+
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@drawable/leaderboard"
+            android:title="Leaderboard" />
+
+        <item
+            android:id="@+id/nav_qrcode"
+            android:icon="@drawable/qrcode"
+            android:title="Scan QR Code" />
+
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/shirt2"
+            android:title= "Merchandise" />
+
+    </group>
+
+    <item android:title="Contact us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/fb"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/youtube"
+                android:title="Youtube" />
+        </menu>
+    </item>
+
+</menu>
