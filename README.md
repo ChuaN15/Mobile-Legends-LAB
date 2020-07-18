@@ -1,6 +1,6 @@
 # Mobile-Legends LAB
 Mobile Legends Laboratory is an Android mobile application created to improve the online community of Mobile Legends. The application is created for the purpose of showing useful information and statistics for heroes / characters found in Mobile Legends. This app also enables users to view posts about character's guides, game strategy and item purchasing advice to improve user’s ability in the game.
-
+ 
 Mobile Legends Laboratory is my Diploma Project with collaboration of [Mobile Legends LAB](https://www.facebook.com/mobilelegendslab/) which owns over 5000followers on facebook. The application provided a place for the community of [Mobile Legends LAB](https://www.facebook.com/mobilelegendslab/) to interact with each other on the game they love.
 
 # Side Navigation Bar
