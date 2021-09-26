@@ -4,7 +4,7 @@ Mobile Legends Laboratory is an Android mobile application created to improve th
 Mobile Legends Laboratory is my Diploma Project with collaboration of [Mobile Legends LAB](https://www.facebook.com/mobilelegendslab/) which owns over 5000followers on facebook. The application provided a place for the community of [Mobile Legends LAB](https://www.facebook.com/mobilelegendslab/) to interact with each other on the game they love.
 
 # Side Navigation Bar
-<img src="https://scontent.fmkz1-1.fna.fbcdn.net/v/t1.0-0/p480x480/32349978_1688770697843008_4316625377259683840_o.jpg?_nc_cat=108&_nc_sid=110474&_nc_eui2=AeHOgSoF9ml8Bau1tn_aWtDBduHfAniZpR124d8CeJmlHW5mYuH-wM1Vn6datFBOeHBTQLsnVHib9ORQu3a1eO-V&_nc_ohc=1W99eKUsPZYAX_uG6Oh&_nc_ht=scontent.fmkz1-1.fna&_nc_tp=6&oh=fbee7a6c35b67e6507f85caa5a6f0678&oe=5F3863AF" alt="Drawing" width="250" height="450" style="max-width:100%;"/>
+<img src="https://scontent.fmkz1-1.fna.fbcdn.net/v/t1.6435-9/32349978_1688770697843008_4316625377259683840_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=1eHo1es-ApcAX95xc6k&_nc_ht=scontent.fmkz1-1.fna&oh=ede11870a86c02ebf62185a33400f088&oe=617457D8" alt="Drawing" width="250" height="450" style="max-width:100%;"/>
 
 # Guides Uploaded by User
 <img src="https://scontent.fmkz1-1.fna.fbcdn.net/v/t1.0-0/p480x480/32405564_1688770651176346_7171388365365837824_o.jpg?_nc_cat=110&_nc_sid=110474&_nc_eui2=AeFXAMw6GHKRwamPn2QtnEpB91FD8n8EshT3UUPyfwSyFPzs-iU1SdxzflaIOBNlRoqkjVUnXTS5fOMySa-pFWY9&_nc_ohc=J9g1oMRJQe8AX-YEcol&_nc_ht=scontent.fmkz1-1.fna&_nc_tp=6&oh=0dfa92355eff66708215a7d01300f191&oe=5F3774B6" alt="Drawing" width="250" height="450" style="max-width:100%;"/>
